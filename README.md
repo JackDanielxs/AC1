@@ -22,4 +22,5 @@ Este repositório é focado no meu estudo pessoal, mas se você quiser sugerir m
 2️⃣ Criar uma Issue para discutir possíveis melhorias, novos tópicos ou sugerir artigos.
 3️⃣ Compartilhar materiais e links úteis para aprimorar o repositório.
 
+
 Se você também busca evoluir nessa área, fique à vontade para explorar o conteúdo e compartilhar seu conhecimento. 🧠
