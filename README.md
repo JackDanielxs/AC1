@@ -11,6 +11,8 @@ O foco principal é desenvolver um entendimento sólido sobre o funcionamento de
 Este repositório contém implementações e simulações de conceitos de arquitetura de computadores utilizando diferentes linguagens, permitindo uma análise prática dos conceitos de baixo e alto nível.
 
 <div style="display: flex; gap: 25px;">
+  
+  <i class="devicon-arduino-plain"></i>      
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg" width="100" height="100" />    
   <img src="https://raw.githubusercontent.com/Verilog-Solutions/.github/main/assets/verilog-logo.svg" width="250" height="100" />
 </div>
