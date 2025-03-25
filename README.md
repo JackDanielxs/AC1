@@ -18,9 +18,8 @@ Este repositório contém implementações e simulações de conceitos de arquit
 
 Este repositório é focado no meu estudo pessoal, mas se você quiser sugerir melhorias ou trocar ideias, sinta-se à vontade para:
 
-1️⃣ Abrir um Pull Request com sugestões ou correções de código.
-2️⃣ Criar uma Issue para discutir possíveis melhorias, novos tópicos ou sugerir artigos.
-3️⃣ Compartilhar materiais e links úteis para aprimorar o repositório.
-
+1️⃣ Abrir um Pull Request com sugestões ou correções de código.  
+2️⃣ Criar uma Issue para discutir possíveis melhorias, novos tópicos ou sugerir artigos.  
+3️⃣ Compartilhar materiais e links úteis para aprimorar este repositório.
 
 Se você também busca evoluir nessa área, fique à vontade para explorar o conteúdo e compartilhar seu conhecimento. 🧠
