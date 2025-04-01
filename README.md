@@ -1,12 +1,12 @@
-# 🚀 **ARQUITETURA DE COMPUTADORES 1**
+# 🚀 ***ARQUITETURA DE COMPUTADORES 1***
 
-## **📌 Sobre o Repositório**
+## ***📌 Sobre o Repositório***
 
 Este repositório foi criado com o objetivo de aprender e aprimorar os conceitos fundamentais de Arquitetura de Computadores. Através de estudo e implementações práticas, exploro as principais técnicas e componentes que formam a base do funcionamento de sistemas computacionais.
 
 O foco principal é desenvolver um entendimento sólido sobre o funcionamento de hardware, a interação entre o hardware e software, além de otimizar o uso dos recursos computacionais. Além disso, busco documentar o progresso de forma clara para consulta futura e revisão de conceitos.
 
-## **🖥️ Linguagens utilizadas**  
+## ***🖥️ Linguagens utilizadas***
 
 Este repositório contém implementações e simulações de conceitos de arquitetura de computadores utilizando diferentes linguagens, permitindo uma análise prática dos conceitos de baixo e alto nível.
 
@@ -16,9 +16,9 @@ Este repositório contém implementações e simulações de conceitos de arquit
   </a>
 </p>
 
-## **🤝 Como Contribuir**
+## ***🤝 Como Contribuir***
 
-Este repositório é focado no meu estudo pessoal, mas se você quiser sugerir melhorias ou trocar ideias, sinta-se à vontade para:
+Este repositório é focado no meu estudo acadêmico, mas se você quiser sugerir melhorias ou trocar ideias, sinta-se à vontade para:
 
 1️⃣ Abrir um Pull Request com sugestões ou correções de código.  
 2️⃣ Criar uma Issue para discutir possíveis melhorias, novos tópicos ou sugerir artigos.  
