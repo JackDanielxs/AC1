@@ -12,7 +12,7 @@ Este repositório contém implementações e simulações de conceitos de arquit
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=v,vim,arduino" />
+    <img src="https://skillicons.dev/icons?i=v,vim" />
   </a>
 </p>
 
