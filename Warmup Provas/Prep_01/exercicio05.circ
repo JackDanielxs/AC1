@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project source="Logisim" version="2.7.1">
+  <lib desc="0" name="Built-in Gates"/>
+  <lib desc="1" name="Plexers"/>
+  <lib desc="2" name="Wiring"/>
+  <main name="main"/>
+
+  <circuit name="main">
+    <!-- Entradas -->
+    <comp lib="2" name="Pin">
+      <a name="facing" val="east"/>
+      <a name="label" val="a"/>
+      <a name="labelloc" val="west"/>
+      <a name="location" val="100 100"/>
+    </comp>
+    <comp lib="2" name="Pin">
+      <a name="facing" val="east"/>
+      <a name="label" val="b"/>
+      <a name="labelloc" val="west"/>
+      <a name="location" val="100 150"/>
+    </comp>
+
+    <!-- NOT a -->
+    <comp lib="0" name="NOT Gate">
+      <a name="location" val="150 100"/>
+    </comp>
+
+    <!-- NOT b -->
+    <comp lib="0" name="NOT Gate">
+      <a name="location" val="150 150"/>
+    </comp>
+
+    <!-- NOR (NOT a, NOT b) -->
+    <comp lib="0" name="NOR Gate">
+      <a name="location" val="250 125"/>
+    </comp>
+
+    <!-- XNOR (a, b) -->
+    <comp lib="0" name="XNOR Gate">
+      <a name="location" val="250 175"/>
+    </comp>
+
+    <!-- NAND (XNOR, NOR) -->
+    <comp lib="0" name="NAND Gate">
+      <a name="location" val="350 150"/>
+    </comp>
+
+    <!-- Saída -->
+    <comp lib="2" name="Pin">
+      <a name="facing" val="east"/>
+      <a name="output" val="true"/>
+      <a name="label" val="s"/>
+      <a name="labelloc" val="east"/>
+      <a name="location" val="400 150"/>
+    </comp>
+
+    <!-- Fios (wire manual, simplificado) -->
+    <!-- Você deve conectar:
+         - a → NOT a → NOR
+         - b → NOT b → NOR
+         - a e b → XNOR
+         - NOR e XNOR → NAND
+         - NAND → saída s
+    -->
+  </circuit>
+</project>
