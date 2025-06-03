@@ -34,7 +34,7 @@
       <a name="valign" val="base"/>
     </tool>
   </lib>
-  <lib desc="file#C:\Users\vinic\Desktop\AC_I\LibLogisim\libshow.circ" name="8"/>
+  <lib desc="file#C:\Users\marce\Desktop\ARQCOMP\LibLogisim\libshow.circ" name="8"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -199,7 +199,7 @@
       <a name="label" val="b4"/>
     </comp>
     <comp lib="7" loc="(147,28)" name="Text">
-      <a name="text" val="Vinicius Miranda de Araujo - 812839$Guia_0804$Comparador de Desigualdade de 6 bits"/>
+      <a name="text" val="Daniel Matos Marques - 800712$Guia_0804$Comparador de Desigualdade de 6 bits"/>
       <a name="font" val="Dialog plain 12"/>
     </comp>
     <comp lib="0" loc="(340,310)" name="Pin">

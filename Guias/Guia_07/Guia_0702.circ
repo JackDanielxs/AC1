@@ -34,7 +34,7 @@
       <a name="valign" val="base"/>
     </tool>
   </lib>
-  <lib desc="file#C:\Users\vinic\Desktop\AC_I\LibLogisim\libshow.circ" name="8"/>
+  <lib desc="file#C:\Users\marce\Desktop\ARQCOMP\LibLogisim\libshow.circ" name="8"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -107,7 +107,7 @@
       <a name="label" val="s"/>
     </comp>
     <comp lib="7" loc="(145,36)" name="Text">
-      <a name="text" val="Vinícius Miranda de Araújo - 812839"/>
+      <a name="text" val="Daniel Matos Marques - 800712"/>
     </comp>
     <comp lib="0" loc="(80,150)" name="Pin">
       <a name="facing" val="south"/>

@@ -38,7 +38,7 @@
       <a name="valign" val="base"/>
     </tool>
   </lib>
-  <lib desc="file#C:\Users\vinic\Desktop\AC_I\LibLogisim\libshow.circ" name="8"/>
+  <lib desc="file#C:\Users\marce\Desktop\ARQCOMP\LibLogisim\libshow.circ" name="8"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -222,7 +222,7 @@
       <a name="facing" val="south"/>
     </comp>
     <comp lib="7" loc="(145,26)" name="Text">
-      <a name="text" val="Vinicius Miranda de Araujo - 812839$Guia_0805$Two's Complement for 5 bits"/>
+      <a name="text" val="Daniel Matos Marques - 800712$Guia_0805$Two's Complement for 5 bits"/>
       <a name="font" val="Dialog plain 12"/>
     </comp>
     <comp lib="0" loc="(150,120)" name="Pin">
