@@ -1,0 +1,38 @@
+// Guia_1603.txt
+// 800712 - Daniel Matos Marques
+
+        JMP MAIN         ; Pular para main
+
+;---------------------------------------------------------
+; FUNÇÃO F_SUB: B = B - C
+;---------------------------------------------------------
+F_SUB:  MOV A, B
+        SUB C
+        MOV B, A
+        RET
+
+;---------------------------------------------------------
+; PROGRAMA PRINCIPAL
+;---------------------------------------------------------
+MAIN:   LXI H, 0050h     ; HL aponta para dado1
+        MOV A, M         ; A = dado1
+        MOV B, A         ; B = dividendo
+        INX H
+        MOV A, M         ; A = dado2
+        MOV C, A         ; C = divisor
+
+LOOP:   MOV A, B
+        CMP C            ; se B < C, fim
+        JC FIM           ; jump if carry (B < C)
+
+        CALL F_SUB       ; B = B - C
+        JMP LOOP
+
+FIM:    ; B contém o resto
+        LXI H, 0052h
+        MOV M, B         ; Armazena o resto em 0052h
+        HLT
+
+
+0050h = 09h ; dado1 (dividendo)
+0051h = 04h ; dado2 (divisor)

@@ -1,0 +1,48 @@
+// Guia_1605.txt
+// 800712 - Daniel Matos Marques
+
+        JMP MAIN         ; Pular para main
+
+;---------------------------------------------------------
+; MULT10: Multiplica D por 10 usando somas sucessivas
+; Resultado em A
+;---------------------------------------------------------
+MULT10: MVI A, 00h       ; A = 0 (resultado)
+        MOV B, D         ; B = multiplicador (10)
+        MVI C, 0Ah       ; C = 10 (constante)
+
+M_LOOP: ADD D            ; A = A + D
+        DCR C
+        JNZ M_LOOP
+        RET
+
+;---------------------------------------------------------
+; MAIN: conversão BCD para hexadecimal
+;---------------------------------------------------------
+MAIN:   LXI H, 0050h     ; HL aponta para dado BCD
+        MOV A, M         ; A = BCD ex: 24h
+
+        ; Extrair nibble alto
+        ANI 0F0h         ; A = A & F0h
+        RRC              ; 1ª rotação
+        RRC              ; 2ª rotação
+        RRC              ; 3ª rotação
+        RRC              ; 4ª rotação
+        MOV D, A         ; D = HIGH nibble (0-9)
+
+        ; Multiplica HIGH * 10
+        CALL MULT10      ; A = D * 10
+        MOV E, A         ; E = resultado parcial
+
+        ; Agora LOW nibble
+        MOV A, M         ; A = BCD novamente
+        ANI 0Fh          ; A = A & 0Fh → LOW nibble
+        ADD E            ; A = HIGH*10 + LOW
+
+        ; Armazena resultado em 0051h
+        INX H
+        MOV M, A
+
+        HLT
+
+0050h: 24h   ; dado BCD

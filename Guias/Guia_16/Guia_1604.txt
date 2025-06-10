@@ -1,0 +1,33 @@
+// Guia_1604.txt
+// 800712 - Daniel Matos Marques
+
+        JMP MAIN         ; Pular função principal
+
+;---------------------------------------------------------
+; MAIN: encontrar o maior valor do arranjo
+;---------------------------------------------------------
+MAIN:   LXI H, 0050h     ; HL aponta para o início do arranjo
+        MOV C, M         ; C = tamanho (n)
+        INX H            ; HL aponta para o primeiro dado
+        MOV A, M         ; A = primeiro elemento
+        MOV D, A         ; D = maior (inicial)
+
+LOOP:   DCR C            ; C = C - 1
+        JZ FIM           ; Se C == 0, termina
+        INX H            ; próximo elemento
+        MOV A, M         ; A = próximo valor
+        CMP D            ; compara com maior atual
+        JC LOOP          ; se A < D, ignora
+        MOV D, A         ; se A >= D, atualiza maior
+        JMP LOOP
+
+FIM:    INX H            ; HL aponta para local de saída
+        MOV M, D         ; salva o maior valor
+        HLT
+
+
+0050h: 04h    ; tamanho = 4 elementos
+0051h: 12h    ; elemento 1
+0052h: 29h    ; elemento 2
+0053h: 0Fh    ; elemento 3
+0054h: 3Ch    ; elemento 4
