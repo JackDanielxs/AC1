@@ -1,0 +1,9 @@
+/*
+    Arquitetura de Computadores I - Recuperacao_02_Q2.txt;
+    800712 - Daniel Matos Marques
+*/
+
+a) PoS (Da) = (0,1,2,5)     PoS (Db) = (0,4,5,7)
+b) PoS (Ja) = (0,1,2)       PoS (Jb) = (0,4,5,6)
+   PoS (Ka) = (4,6,7)       PoS (Kb) = (2,3)
+c) PoS (Ta) = (0,1,2,4,6,7) PoS (Tb) = (0,2,3,4,5,6)
