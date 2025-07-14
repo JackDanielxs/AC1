@@ -11,8 +11,8 @@ O foco principal é desenvolver um entendimento sólido sobre o funcionamento de
 Este repositório contém implementações e simulações de conceitos de arquitetura de computadores utilizando diferentes linguagens, permitindo uma análise prática dos conceitos de baixo e alto nível.
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=v,vim" />
+  <a href="https://github.com/syvixor/skills-icons">
+    <img src="https://skills.syvixor.com/api/icons?i=vhdl,vim" />
   </a>
 </p>
 
