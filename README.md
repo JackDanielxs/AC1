@@ -6,16 +6,6 @@ Este repositório foi criado com o objetivo de aprender e aprimorar os conceitos
 
 O foco principal é desenvolver um entendimento sólido sobre o funcionamento de hardware, a interação entre o hardware e software, além de otimizar o uso dos recursos computacionais. Além disso, busco documentar o progresso de forma clara para consulta futura e revisão de conceitos.
 
-## ***🖥️ Linguagens utilizadas***
-
-Este repositório contém implementações e simulações de conceitos de arquitetura de computadores utilizando diferentes linguagens, permitindo uma análise prática dos conceitos de baixo e alto nível.
-
-<p align="center">
-  <a href="https://github.com/syvixor/skills-icons">
-    <img src="https://skills.syvixor.com/api/icons?i=vhdl,vim" />
-  </a>
-</p>
-
 ## ***🤝 Como Contribuir***
 
 Este repositório é focado no meu estudo acadêmico, mas se você quiser sugerir melhorias ou trocar ideias, sinta-se à vontade para:
