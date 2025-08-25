@@ -1,7 +1,7 @@
 # 🖥️ ***ARQUITETURA DE COMPUTADORES I***
 
 Este repositório foi desenvolvido para reunir os principais conteúdos e objetivos da disciplina **Arquitetura de Computadores I**.  
-O material aqui organizado tem como finalidade apoiar o estudo e a revisão dos conceitos fundamentais de arquitetura, servindo como base para disciplinas posteriores e para a compreensão do funcionamento interno dos computadores.  
+O material tem como finalidade apoiar o estudo e a revisão dos conceitos fundamentais de arquitetura, servindo como base para disciplinas posteriores e para a compreensão do funcionamento interno dos computadores.
 
 ## 📌 Conteúdos da Disciplina
 - Processadores  
